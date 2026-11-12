@@ -1,0 +1,332 @@
+{
+  "id": "first-5k",
+  "version": 1,
+  "name": "Pierwsze 5 km",
+  "description": "8-tygodniowy plan dla początkujących: trzy treningi w tygodniu, od przeplatania biegu z marszem do 30 minut ciągłego biegu. Każdy trening zaczyna się 5-minutową rozgrzewką marszem i kończy 5-minutowym schłodzeniem. Biegnij spokojnie — w tempie, w którym możesz rozmawiać.",
+  "language": "pl",
+  "weekPattern": ["train", "rest", "train", "rest", "train", "rest", "rest"],
+  "weeks": [
+    {
+      "number": 1,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 1 min / marsz 1,5 min × 8",
+          "description": "Pierwszy trening. Nie chodzi o szybkość — ukończ wszystkie powtórzenia w spokojnym tempie.",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "repeat": 8, "segments": [
+              { "type": "run", "durationSec": 60 },
+              { "type": "walk", "durationSec": 90 }
+            ] },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 1 min / marsz 1,5 min × 8",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "repeat": 8, "segments": [
+              { "type": "run", "durationSec": 60 },
+              { "type": "walk", "durationSec": 90 }
+            ] },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 1 min / marsz 1,5 min × 8",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "repeat": 8, "segments": [
+              { "type": "run", "durationSec": 60 },
+              { "type": "walk", "durationSec": 90 }
+            ] },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 1,5 min / marsz 2 min × 6",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "repeat": 6, "segments": [
+              { "type": "run", "durationSec": 90 },
+              { "type": "walk", "durationSec": 120 }
+            ] },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 1,5 min / marsz 2 min × 6",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "repeat": 6, "segments": [
+              { "type": "run", "durationSec": 90 },
+              { "type": "walk", "durationSec": 120 }
+            ] },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 1,5 min / marsz 2 min × 6",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "repeat": 6, "segments": [
+              { "type": "run", "durationSec": 90 },
+              { "type": "walk", "durationSec": 120 }
+            ] },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 1,5 min i 3 min × 2",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "repeat": 2, "segments": [
+              { "type": "run", "durationSec": 90 },
+              { "type": "walk", "durationSec": 90 },
+              { "type": "run", "durationSec": 180 },
+              { "type": "walk", "durationSec": 180 }
+            ] },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 1,5 min i 3 min × 2",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "repeat": 2, "segments": [
+              { "type": "run", "durationSec": 90 },
+              { "type": "walk", "durationSec": 90 },
+              { "type": "run", "durationSec": 180 },
+              { "type": "walk", "durationSec": 180 }
+            ] },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 1,5 min i 3 min × 2",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "repeat": 2, "segments": [
+              { "type": "run", "durationSec": 90 },
+              { "type": "walk", "durationSec": 90 },
+              { "type": "run", "durationSec": 180 },
+              { "type": "walk", "durationSec": 180 }
+            ] },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 3 min i 5 min × 2",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 180 },
+            { "type": "walk", "durationSec": 90 },
+            { "type": "run", "durationSec": 300 },
+            { "type": "walk", "durationSec": 150 },
+            { "type": "run", "durationSec": 180 },
+            { "type": "walk", "durationSec": 90 },
+            { "type": "run", "durationSec": 300 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 3 min i 5 min × 2",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 180 },
+            { "type": "walk", "durationSec": 90 },
+            { "type": "run", "durationSec": 300 },
+            { "type": "walk", "durationSec": 150 },
+            { "type": "run", "durationSec": 180 },
+            { "type": "walk", "durationSec": 90 },
+            { "type": "run", "durationSec": 300 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 3 min i 5 min × 2",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 180 },
+            { "type": "walk", "durationSec": 90 },
+            { "type": "run", "durationSec": 300 },
+            { "type": "walk", "durationSec": 150 },
+            { "type": "run", "durationSec": 180 },
+            { "type": "walk", "durationSec": 90 },
+            { "type": "run", "durationSec": 300 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 5 min / marsz 3 min × 3",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 300 },
+            { "type": "walk", "durationSec": 180 },
+            { "type": "run", "durationSec": 300 },
+            { "type": "walk", "durationSec": 180 },
+            { "type": "run", "durationSec": 300 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 8 min × 2",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 480 },
+            { "type": "walk", "durationSec": 300 },
+            { "type": "run", "durationSec": 480 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 20 min bez przerwy",
+          "description": "Pierwszy dłuższy bieg ciągły. Zwolnij, jeśli brakuje Ci tchu — ważne, żeby nie przechodzić do marszu.",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 1200 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 5, 8 i 5 min",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 300 },
+            { "type": "walk", "durationSec": 180 },
+            { "type": "run", "durationSec": 480 },
+            { "type": "walk", "durationSec": 180 },
+            { "type": "run", "durationSec": 300 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 10 min × 2",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 600 },
+            { "type": "walk", "durationSec": 180 },
+            { "type": "run", "durationSec": 600 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 25 min bez przerwy",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 1500 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 25 min bez przerwy",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 1500 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 25 min bez przerwy",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 1500 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 28 min bez przerwy",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 1680 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 28 min bez przerwy",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 1680 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 28 min bez przerwy",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 1680 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 30 min — Twoje pierwsze 5 km",
+          "description": "Ostatni trening planu. W spokojnym tempie 30 minut biegu to około 4–5 km.",
+          "segments": [
+            { "type": "warmup", "durationSec": 300 },
+            { "type": "run", "durationSec": 1800 },
+            { "type": "cooldown", "durationSec": 300 }
+          ]
+        }
+      ]
+    }
+  ]
+}

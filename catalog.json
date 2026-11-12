@@ -1,0 +1,15 @@
+{
+  "formatVersion": 1,
+  "updated": "2026-11-12",
+  "plans": [
+    {
+      "id": "first-5k",
+      "version": 1,
+      "name": "Pierwsze 5 km",
+      "description": "8 tygodni, 3 treningi w tygodniu — od marszobiegu do 30 minut ciągłego biegu.",
+      "language": "pl",
+      "weeks": 8,
+      "url": "plans/first-5k.json"
+    }
+  ]
+}
