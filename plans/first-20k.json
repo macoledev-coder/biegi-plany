@@ -1,0 +1,1267 @@
+{
+  "id": "first-20k",
+  "version": 1,
+  "name": "Pierwsze 20 km",
+  "description": "12 tygodni do pierwszych 20 km (lub półmaratonu). Wymaganie wstępne: przebiegasz 10 km lub godzinę bez przerwy. Cztery treningi w tygodniu; długi bieg rośnie od 70 do 130 minut z lżejszymi tygodniami 4 i 8, ostatnie dwa tygodnie to odpoczynek przed startem. Plan ma charakter ogólny — przy chorobach serca, nadciśnieniu, urazach lub po dłuższej przerwie skonsultuj rozpoczęcie treningów z lekarzem. Ból (inny niż zwykłe zmęczenie mięśni) to sygnał do przerwy.",
+  "language": "pl",
+  "weekPattern": [
+    "train",
+    "rest",
+    "train",
+    "rest",
+    "train",
+    "train",
+    "rest"
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 40 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2400
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Interwały 5 × 4 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 600
+            },
+            {
+              "repeat": 5,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 240
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki „szybciej” biegnij w tempie, w którym mówisz już tylko krótkimi zdaniami; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Bieg z odcinkiem 20 min w tempie",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "type": "run",
+              "durationSec": 1200
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Rozgrzewający bieg 15 min, potem 20 min „komfortowo ciężko” (tempo, które utrzymasz około godziny) i spokojne zakończenie."
+        },
+        {
+          "number": 4,
+          "title": "Długi bieg 70 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 4200
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 40 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2400
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Interwały 6 × 4 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 600
+            },
+            {
+              "repeat": 6,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 240
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki „szybciej” biegnij w tempie, w którym mówisz już tylko krótkimi zdaniami; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Bieg z odcinkiem 22 min w tempie",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "type": "run",
+              "durationSec": 1320
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Rozgrzewający bieg 15 min, potem 22 min „komfortowo ciężko” (tempo, które utrzymasz około godziny) i spokojne zakończenie."
+        },
+        {
+          "number": 4,
+          "title": "Długi bieg 80 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 4800
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 45 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2700
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Interwały 5 × 5 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 600
+            },
+            {
+              "repeat": 5,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 300
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki „szybciej” biegnij w tempie, w którym mówisz już tylko krótkimi zdaniami; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Bieg z odcinkiem 25 min w tempie",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "type": "run",
+              "durationSec": 1500
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Rozgrzewający bieg 15 min, potem 25 min „komfortowo ciężko” (tempo, które utrzymasz około godziny) i spokojne zakończenie."
+        },
+        {
+          "number": 4,
+          "title": "Długi bieg 90 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 5400
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Długi bieg zawsze w tempie rozmowy; na biegach powyżej 90 min zabierz picie."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 35 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2100
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Interwały 4 × 4 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 600
+            },
+            {
+              "repeat": 4,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 240
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki „szybciej” biegnij w tempie, w którym mówisz już tylko krótkimi zdaniami; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Bieg z odcinkiem 20 min w tempie",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "type": "run",
+              "durationSec": 1200
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Rozgrzewający bieg 15 min, potem 20 min „komfortowo ciężko” (tempo, które utrzymasz około godziny) i spokojne zakończenie."
+        },
+        {
+          "number": 4,
+          "title": "Długi bieg 75 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 4500
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 45 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2700
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Interwały 6 × 5 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 600
+            },
+            {
+              "repeat": 6,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 300
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki „szybciej” biegnij w tempie, w którym mówisz już tylko krótkimi zdaniami; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Bieg z odcinkiem 28 min w tempie",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "type": "run",
+              "durationSec": 1680
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Rozgrzewający bieg 15 min, potem 28 min „komfortowo ciężko” (tempo, które utrzymasz około godziny) i spokojne zakończenie."
+        },
+        {
+          "number": 4,
+          "title": "Długi bieg 95 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 5700
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Długi bieg zawsze w tempie rozmowy; na biegach powyżej 90 min zabierz picie."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 45 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2700
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Interwały 8 × 4 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 600
+            },
+            {
+              "repeat": 8,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 240
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki „szybciej” biegnij w tempie, w którym mówisz już tylko krótkimi zdaniami; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Bieg z odcinkiem 30 min w tempie",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "type": "run",
+              "durationSec": 1800
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Rozgrzewający bieg 15 min, potem 30 min „komfortowo ciężko” (tempo, które utrzymasz około godziny) i spokojne zakończenie."
+        },
+        {
+          "number": 4,
+          "title": "Długi bieg 105 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 6300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Długi bieg zawsze w tempie rozmowy; na biegach powyżej 90 min zabierz picie."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 50 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 3000
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Interwały 6 × 5 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 600
+            },
+            {
+              "repeat": 6,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 300
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki „szybciej” biegnij w tempie, w którym mówisz już tylko krótkimi zdaniami; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Bieg z odcinkiem 32 min w tempie",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "type": "run",
+              "durationSec": 1920
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Rozgrzewający bieg 15 min, potem 32 min „komfortowo ciężko” (tempo, które utrzymasz około godziny) i spokojne zakończenie."
+        },
+        {
+          "number": 4,
+          "title": "Długi bieg 115 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 6900
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Długi bieg zawsze w tempie rozmowy; na biegach powyżej 90 min zabierz picie."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 40 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2400
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Interwały 5 × 4 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 600
+            },
+            {
+              "repeat": 5,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 240
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki „szybciej” biegnij w tempie, w którym mówisz już tylko krótkimi zdaniami; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Bieg z odcinkiem 20 min w tempie",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "type": "run",
+              "durationSec": 1200
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Rozgrzewający bieg 15 min, potem 20 min „komfortowo ciężko” (tempo, które utrzymasz około godziny) i spokojne zakończenie."
+        },
+        {
+          "number": 4,
+          "title": "Długi bieg 90 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 5400
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Długi bieg zawsze w tempie rozmowy; na biegach powyżej 90 min zabierz picie."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 50 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 3000
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Interwały 5 × 6 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 600
+            },
+            {
+              "repeat": 5,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 360
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki „szybciej” biegnij w tempie, w którym mówisz już tylko krótkimi zdaniami; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Bieg z odcinkiem 35 min w tempie",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "type": "run",
+              "durationSec": 2100
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Rozgrzewający bieg 15 min, potem 35 min „komfortowo ciężko” (tempo, które utrzymasz około godziny) i spokojne zakończenie."
+        },
+        {
+          "number": 4,
+          "title": "Długi bieg 120 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 7200
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Długi bieg zawsze w tempie rozmowy; na biegach powyżej 90 min zabierz picie."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 50 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 3000
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Interwały 7 × 5 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 600
+            },
+            {
+              "repeat": 7,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 300
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki „szybciej” biegnij w tempie, w którym mówisz już tylko krótkimi zdaniami; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Bieg z odcinkiem 35 min w tempie",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "type": "run",
+              "durationSec": 2100
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Rozgrzewający bieg 15 min, potem 35 min „komfortowo ciężko” (tempo, które utrzymasz około godziny) i spokojne zakończenie."
+        },
+        {
+          "number": 4,
+          "title": "Długi bieg 130 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 7800
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Długi bieg zawsze w tempie rozmowy; na biegach powyżej 90 min zabierz picie."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 40 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2400
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Interwały 5 × 4 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 600
+            },
+            {
+              "repeat": 5,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 240
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki „szybciej” biegnij w tempie, w którym mówisz już tylko krótkimi zdaniami; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Bieg z odcinkiem 25 min w tempie",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "type": "run",
+              "durationSec": 1500
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Rozgrzewający bieg 15 min, potem 25 min „komfortowo ciężko” (tempo, które utrzymasz około godziny) i spokojne zakończenie."
+        },
+        {
+          "number": 4,
+          "title": "Długi bieg 100 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 6000
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Długi bieg zawsze w tempie rozmowy; na biegach powyżej 90 min zabierz picie."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 30 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 1800
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Interwały 4 × 3 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 600
+            },
+            {
+              "repeat": 4,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 180
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki „szybciej” biegnij w tempie, w którym mówisz już tylko krótkimi zdaniami; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Rozruch 20 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 1200
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Lekko przed startem."
+        },
+        {
+          "number": 4,
+          "title": "20 km — start!",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 8100
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Cel planu: 20 km. Zacznij wolniej niż na treningach, pij na punktach odżywczych, równe tempo do końca."
+        }
+      ]
+    }
+  ]
+}

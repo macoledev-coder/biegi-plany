@@ -1,0 +1,789 @@
+{
+  "id": "run-60min",
+  "version": 1,
+  "name": "Godzina biegu",
+  "description": "10 tygodni od 30 do 60 minut biegu ciągłego. Wymaganie wstępne: swobodnie przebiegasz 30 minut. Trzy treningi w tygodniu: spokojny bieg, bieg z krótkimi szybszymi odcinkami i długi bieg wydłużany stopniowo, z lżejszymi tygodniami 4 i 7 na regenerację. Plan ma charakter ogólny — przy chorobach serca, nadciśnieniu, urazach lub po dłuższej przerwie skonsultuj rozpoczęcie treningów z lekarzem. Ból (inny niż zwykłe zmęczenie mięśni) to sygnał do przerwy.",
+  "language": "pl",
+  "weekPattern": [
+    "train",
+    "rest",
+    "train",
+    "rest",
+    "train",
+    "rest",
+    "rest"
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 30 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 1800
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 15 min + 4 × 1 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "repeat": 4,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki 1-minutowe biegnij wyraźnie szybciej niż zwykle, ale bez sprintu; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Długi bieg 35 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2100
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 30 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 1800
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 15 min + 5 × 1 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "repeat": 5,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki 1-minutowe biegnij wyraźnie szybciej niż zwykle, ale bez sprintu; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Długi bieg 40 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2400
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 32 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 1920
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 18 min + 5 × 1 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 1080
+            },
+            {
+              "repeat": 5,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki 1-minutowe biegnij wyraźnie szybciej niż zwykle, ale bez sprintu; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Długi bieg 45 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2700
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 30 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 1800
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 15 min + 4 × 1 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "repeat": 4,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki 1-minutowe biegnij wyraźnie szybciej niż zwykle, ale bez sprintu; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Długi bieg 40 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2400
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 35 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2100
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 18 min + 6 × 1 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 1080
+            },
+            {
+              "repeat": 6,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki 1-minutowe biegnij wyraźnie szybciej niż zwykle, ale bez sprintu; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Długi bieg 50 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 3000
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 35 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2100
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 20 min + 6 × 1 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 1200
+            },
+            {
+              "repeat": 6,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki 1-minutowe biegnij wyraźnie szybciej niż zwykle, ale bez sprintu; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Długi bieg 54 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 3240
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 30 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 1800
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 15 min + 4 × 1 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "repeat": 4,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki 1-minutowe biegnij wyraźnie szybciej niż zwykle, ale bez sprintu; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Długi bieg 48 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2880
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 38 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2280
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 20 min + 6 × 1 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 1200
+            },
+            {
+              "repeat": 6,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki 1-minutowe biegnij wyraźnie szybciej niż zwykle, ale bez sprintu; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Długi bieg 57 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 3420
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 40 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 2400
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 20 min + 6 × 1 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 1200
+            },
+            {
+              "repeat": 6,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki 1-minutowe biegnij wyraźnie szybciej niż zwykle, ale bez sprintu; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Długi bieg 60 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 3600
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "days": [
+        {
+          "number": 1,
+          "title": "Spokojny bieg 30 min",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 1800
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 15 min + 4 × 1 min szybciej",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "repeat": 4,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "run",
+              "durationSec": 300
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Odcinki 1-minutowe biegnij wyraźnie szybciej niż zwykle, ale bez sprintu; marsz to odpoczynek."
+        },
+        {
+          "number": 3,
+          "title": "Godzina biegu!",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 300
+            },
+            {
+              "type": "run",
+              "durationSec": 3600
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Cel planu: 60 minut biegu bez przerwy. Tempo rozmowy, równo od początku do końca."
+        }
+      ]
+    }
+  ]
+}

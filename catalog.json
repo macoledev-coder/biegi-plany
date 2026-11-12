@@ -10,6 +10,69 @@
       "language": "pl",
       "weeks": 8,
       "url": "plans/first-5k.json"
+    },
+    {
+      "id": "first-5k-12w",
+      "version": 1,
+      "name": "Pierwsze 5 km — 12 tygodni",
+      "description": "12 tygodni, 3 treningi w tygodniu — łagodniejsza droga od marszobiegu do 30 minut biegu.",
+      "language": "pl",
+      "weeks": 12,
+      "url": "plans/first-5k-12w.json"
+    },
+    {
+      "id": "5k-50plus",
+      "version": 1,
+      "name": "5 km dla osób 50+",
+      "description": "14 tygodni dla osób 50+: dłuższa rozgrzewka, start od 30 s biegu, spokojna progresja.",
+      "language": "pl",
+      "weeks": 14,
+      "url": "plans/5k-50plus.json"
+    },
+    {
+      "id": "run-60min",
+      "version": 1,
+      "name": "Godzina biegu",
+      "description": "10 tygodni od 30 do 60 minut biegu ciągłego.",
+      "language": "pl",
+      "weeks": 10,
+      "url": "plans/run-60min.json"
+    },
+    {
+      "id": "first-10k",
+      "version": 1,
+      "name": "Pierwsze 10 km",
+      "description": "10 tygodni do pierwszych 10 km, 3 treningi w tygodniu.",
+      "language": "pl",
+      "weeks": 10,
+      "url": "plans/first-10k.json"
+    },
+    {
+      "id": "10k-faster",
+      "version": 1,
+      "name": "10 km — szybciej",
+      "description": "8 tygodni na szybsze 10 km, 4 treningi w tygodniu.",
+      "language": "pl",
+      "weeks": 8,
+      "url": "plans/10k-faster.json"
+    },
+    {
+      "id": "first-20k",
+      "version": 1,
+      "name": "Pierwsze 20 km",
+      "description": "12 tygodni do pierwszych 20 km, 4 treningi w tygodniu.",
+      "language": "pl",
+      "weeks": 12,
+      "url": "plans/first-20k.json"
+    },
+    {
+      "id": "20k-steady",
+      "version": 1,
+      "name": "20 km — spokojnie",
+      "description": "16 tygodni do 20 km, 3 treningi w tygodniu, spokojna progresja.",
+      "language": "pl",
+      "weeks": 16,
+      "url": "plans/20k-steady.json"
     }
   ]
 }

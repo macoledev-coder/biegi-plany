@@ -1,0 +1,1169 @@
+{
+  "id": "5k-50plus",
+  "version": 1,
+  "name": "5 km dla osób 50+",
+  "description": "Spokojny, 14-tygodniowy plan na 5 km dla osób po 50. roku życia. Trzy treningi w tygodniu z dniem przerwy między nimi, 10 minut marszu na rozgrzewkę, start od 30 sekund biegu i bardzo stopniowe wydłużanie odcinków. Jeśli trening był wyjątkowo ciężki, powtórz dany tydzień zamiast iść dalej. W dni wolne warto dodać ćwiczenia siłowe i rozciąganie. Plan ma charakter ogólny — przy chorobach serca, nadciśnieniu, urazach lub po dłuższej przerwie skonsultuj rozpoczęcie treningów z lekarzem. Ból (inny niż zwykłe zmęczenie mięśni) to sygnał do przerwy.",
+  "language": "pl",
+  "weekPattern": [
+    "train",
+    "rest",
+    "train",
+    "rest",
+    "train",
+    "rest",
+    "rest"
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 30 s / marsz 1,5 min × 8",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 8,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 30
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 30 s / marsz 1,5 min × 8",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 8,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 30
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 30 s / marsz 1,5 min × 8",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 8,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 30
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 45 s / marsz 1,5 min × 8",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 8,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 45
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 45 s / marsz 1,5 min × 8",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 8,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 45
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 45 s / marsz 1,5 min × 8",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 8,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 45
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 1 min / marsz 1,5 min × 8",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 8,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 1 min / marsz 1,5 min × 8",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 8,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 1 min / marsz 1,5 min × 8",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 8,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 1 min / marsz 1 min × 10",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 10,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 1 min / marsz 1 min × 10",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 10,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 1 min / marsz 1 min × 10",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 10,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 60
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 1,5 min / marsz 1,5 min × 7",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 7,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 90
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 1,5 min / marsz 1,5 min × 7",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 7,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 90
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 1,5 min / marsz 1,5 min × 7",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 7,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 90
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 2 min / marsz 1,5 min × 6",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 6,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 120
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 2 min / marsz 1,5 min × 6",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 6,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 120
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 2 min / marsz 1,5 min × 6",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 6,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 120
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 3 min / marsz 1,5 min × 5",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 5,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 180
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 3 min / marsz 1,5 min × 5",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 5,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 180
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 3 min / marsz 1,5 min × 5",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 5,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 180
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 4 min / marsz 1,5 min × 4",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 4,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 240
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 4 min / marsz 1,5 min × 4",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 4,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 240
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 4 min / marsz 1,5 min × 4",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 4,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 240
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 90
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 5 min / marsz 2 min × 3",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 3,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 300
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 5 min / marsz 2 min × 3",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 3,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 300
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 5 min / marsz 2 min × 3",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 3,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 300
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 6 min / marsz 2 min × 3",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 3,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 360
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 6 min / marsz 2 min × 3",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 3,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 360
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 6 min / marsz 2 min × 3",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 3,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 360
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 8 min / marsz 2 min × 2",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 2,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 480
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 8 min / marsz 2 min × 2",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 2,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 480
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 10 min / marsz 2 min × 2",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 2,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 600
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 10 min / marsz 2 min × 2",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 2,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 600
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 12 min / marsz 2 min × 2",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 2,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 720
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 120
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 15 min bez przerwy",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "type": "run",
+              "durationSec": 900
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 12 min / marsz 1 min × 2",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "repeat": 2,
+              "segments": [
+                {
+                  "type": "run",
+                  "durationSec": 720
+                },
+                {
+                  "type": "walk",
+                  "durationSec": 60
+                }
+              ]
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 18 min bez przerwy",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "type": "run",
+              "durationSec": 1080
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 20 min bez przerwy",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "type": "run",
+              "durationSec": 1200
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "days": [
+        {
+          "number": 1,
+          "title": "Bieg 20 min bez przerwy",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "type": "run",
+              "durationSec": 1200
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Bieg 25 min bez przerwy",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "type": "run",
+              "durationSec": 1500
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Bieg 30 min — 5 km",
+          "segments": [
+            {
+              "type": "warmup",
+              "durationSec": 600
+            },
+            {
+              "type": "run",
+              "durationSec": 1800
+            },
+            {
+              "type": "cooldown",
+              "durationSec": 300
+            }
+          ],
+          "description": "Ostatni trening planu. Jeśli 30 minut to za dużo, zrób 2 × 15 minut z 1 minutą marszu — to też jest 5 km."
+        }
+      ]
+    }
+  ]
+}

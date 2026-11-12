@@ -9,6 +9,28 @@ https://raw.githubusercontent.com/macoledev-coder/biegi-plany/main/catalog.json
 
 Repozytorium jest publiczne do odczytu; zmiany wprowadzają tylko właściciel i dodani współpracownicy.
 
+## Plany
+
+| Plik | Plan | Dla kogo | Tygodnie × treningi |
+|---|---|---|---|
+| `first-5k.json` | Pierwsze 5 km | od zera do 30 min biegu | 8 × 3 |
+| `first-5k-12w.json` | Pierwsze 5 km — 12 tygodni | od zera, łagodniej | 12 × 3 |
+| `5k-50plus.json` | 5 km dla osób 50+ | 50+, start od 30 s biegu | 14 × 3 |
+| `run-60min.json` | Godzina biegu | biegasz 30 min → 60 min | 10 × 3 |
+| `first-10k.json` | Pierwsze 10 km | biegasz 5 km / 30 min | 10 × 3 |
+| `10k-faster.json` | 10 km — szybciej | masz za sobą 10 km | 8 × 4 |
+| `first-20k.json` | Pierwsze 20 km | biegasz 10 km / 60 min | 12 × 4 |
+| `20k-steady.json` | 20 km — spokojnie | biegasz 60 min, 3 treningi | 16 × 3 |
+
+Plany zostały opracowane samodzielnie na podstawie ogólnie przyjętych zasad treningu biegowego
+(przeplatanie biegu z marszem na początku, dni odpoczynku między treningami, stopniowe wydłużanie
+długiego biegu z lżejszymi tygodniami, wymagania wstępne dla 10 i 20 km), znanych m.in. z powszechnie
+dostępnych planów typu „Couch to 5K” i planów na 10 km / półmaraton — nie są kopią żadnego z nich.
+Mają charakter ogólny i nie zastępują porady lekarza ani trenera.
+
+Format odcinków to rozgrzewka / bieg / marsz / schłodzenie na czas: szybsze odcinki (interwały,
+bieg „w tempie”) są zapisane jako `run`, a ich intensywność opisuje tytuł i opis treningu.
+
 ## Struktura
 
 ```
